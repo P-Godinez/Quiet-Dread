@@ -15,4 +15,8 @@ Considering the nature of the game, it is safe to say that it does not have a lu
 ### Additional resources:
 The program will also use an additional file (.txt or .csv) to read all the narrative material.
 
+## UML Class Diagram
+
+![UML QuietDread](https://github.com/user-attachments/assets/b5a0ea42-9a11-4085-9aad-56a0a557572d)
+
 
