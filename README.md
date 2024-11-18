@@ -16,7 +16,23 @@ Considering the nature of the game, it is safe to say that it does not have a lu
 The program will also use an additional file (.txt or .csv) to read all the narrative material.
 
 ## UML Class Diagram
+![OPP DIAG V3](https://github.com/user-attachments/assets/63cf2cad-226c-4787-ab17-ddf2774beb77)
 
-![UML QuietDread](https://github.com/user-attachments/assets/b5a0ea42-9a11-4085-9aad-56a0a557572d)
+### Description of the classes used:
+
+**GAME**: It will be the main class of the game, in charge of taking general control as well as relating the rest of the classes used in this project. Its functions include starting the game, updating class data based on a turn system, ending the game in case the PLAYER or DEMON class has stats greater than 100 points. 
+
+**MANAGER**: Super class in charge of integrating the subclasses of CHOICE MANAGER and NARRATIVE MANAGER into the game. The main function or justification of this subclass is to have control over the number of rounds, of which both classes will share. 
+
+**CHOICE MANAGER**: In charge of evaluating and determining the consequences of each decision made by the user. 
+
+**NARRATIVE MANAGER**: It will be the subclass in charge of reading the text file type .txt that will have the narrative content of the game, that is, the story. Its function is to read the text file and return a specific line of the text based on the turn. 
+
+**CHARACTER**: Superclass which will contain DEMON and PLAYEr since they have in common that they use stats (impatience and insanity, respectively) as well as methods to check if they are still valid. 
+
+**PLAYER**: It will be one of the characters in the game. It will have the attributes of INSANITY and others that will check its status. Functions: To be a control parameter of the game, because in case his score is above 100, the player will have a bad ending. 
+
+**DEMON**: He will be one of the characters in the game. It will have the IMPATIENCE attributes and others that will check its status. Functions: To be a control parameter of the game, because in case his score is above 100, the player will have a bad ending.
+
 
 
