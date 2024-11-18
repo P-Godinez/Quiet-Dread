@@ -1,12 +1,15 @@
-class ChoiceManager{
+# pragma once
+# include "Manager.h"
+// Subclass of Manager
+class ChoiceManager: public Manager{
     private:
-        int choice;
         int insanityEffects;
         int impatienceEffects;
+        int totalNumberOfChoices;
     public:
-        int getChoice();
+        ChoiceManager();
         int getInsanityEffects();
         int getImpatienceEffects();
-        void evaluateChoice(int choice);
-
+        void evaluateChoice(int);
+        int getTotalChoices();
 };
