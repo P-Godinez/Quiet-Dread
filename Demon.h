@@ -1,7 +1,7 @@
-class Demon{
-    private:
-        int impatience;
+# pragma once
+# include "Character.h"
+class Demon: public Character{
     public:
-        void changeImpatience(int stat);
+        void setImpatience(int);
         int getImpatience();
 };
