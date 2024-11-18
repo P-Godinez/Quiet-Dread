@@ -1,11 +1,14 @@
+# pragma once
+# include "Manager.h"
 #include <string>
-#include<iostream>
 using namespace std;
-class NarrativeManager{
+class NarrativeManager: public Manager{
     private:
         string textStoryName;
         string storyLine;
+        int storyScriptSize;
     public:
-        void readStoryScript(int round);
-        string getStoryLine();
+        NarrativeManager();
+        string getStoryLine(int round);
+        string getEndingScene(string character);
 };
