@@ -1,6 +1,9 @@
+# pragma once
 class Manager{
     protected:
         int roundNumber;
     public:
-        void incrementRound();
+        Manager();
+        void incrementRound(int);
+        int getRoundNumber();
 };
