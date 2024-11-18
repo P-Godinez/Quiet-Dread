@@ -1,5 +1,5 @@
 #include "Character.h"
-
+// 
 bool Character::checkStatus(){
 
 }
