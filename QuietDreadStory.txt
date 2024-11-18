@@ -1,0 +1,20 @@
+Instructions: When given a choice, the user may enter 1,2 or 3. (This file is unfinished)
+Introduction and Choice 1
+Outcome 1A 
+Outcome 1B 
+Outcome 1C 
+Choice 2
+Outcome 2A 
+Outcome 2B 
+Outcome 2C 
+Choice 3
+Outcome 3A 
+Outcome 3B 
+Outcome 3C 
+Choice 4
+Outcome 4A 
+Outcome 4B 
+Outcome 4C 
+End Demon
+End Player
+Good Ending
