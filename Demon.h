@@ -4,4 +4,4 @@ class Demon: public Character{
     public:
         void setImpatience(int);
         int getImpatience();
-};
+}; 
