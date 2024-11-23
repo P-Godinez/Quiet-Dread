@@ -8,8 +8,11 @@ class ChoiceManager: public Manager{
         int totalNumberOfChoices;
     public:
         ChoiceManager();
+        void setInsanityEffect(int);
+        void setImpatienceEffect(int);
         int getInsanityEffects();
         int getImpatienceEffects();
         void evaluateChoice(int);
         int getTotalChoices();
+
 };
