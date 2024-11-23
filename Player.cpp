@@ -5,4 +5,4 @@ void Player::setInsanity(int _stat){
 }
 int Player:: getInsanity(){
     return stat;
-}
+} 
