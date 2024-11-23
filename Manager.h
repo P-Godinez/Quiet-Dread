@@ -7,3 +7,4 @@ class Manager{
         void incrementRound(int);
         int getRoundNumber();
 };
+ 
