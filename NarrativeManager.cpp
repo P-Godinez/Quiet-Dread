@@ -4,7 +4,6 @@
 #include <fstream>
 #include <vector>
 using namespace std;
-// Constructor
 NarrativeManager :: NarrativeManager(): Manager(){
     textStoryName = "QuietDreadStory.txt";
     storyLine = "";
