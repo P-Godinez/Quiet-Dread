@@ -1,5 +1,4 @@
 # include "Character.h"
-// Default constructor
 Character:: Character(){
     stat = 0;
 }
