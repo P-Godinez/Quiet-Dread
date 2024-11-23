@@ -11,4 +11,4 @@ class NarrativeManager: public Manager{
         NarrativeManager();
         string getStoryLine(int round);
         string getEndingScene(string character);
-};
+}; 
