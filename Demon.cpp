@@ -5,5 +5,5 @@ void Demon:: setImpatience(int _stat){
 }
 
 int Demon:: getImpatience(){
-    return stat;
+    return stat; 
 }
