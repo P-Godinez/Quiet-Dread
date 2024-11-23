@@ -8,7 +8,9 @@ The game will have three different endings and four story branches. However, for
 ### Instructions and dynamics:
 In the narrative, we enter the perspective of our protagonist who enjoys a night that is at first joyful. In the middle of the night, he is awakened by an evil presence: a demon seeking to reclaim his soul. To survive the encounter, the protagonist will have to wait until daylight arrives, and this will be by making different choices.
 
-In the gameplay of the game, the player will have to make decisions. Furthermore, in the game there will be two indicators represented in percentages: INSANITY and IMPATIENCE. Each choice the player makes, may increase (or not) one or even both percentages. The player loses if either of these two indicators reaches 100%. There will be alternative events to and the choices are expected to not have obvious outcomes. 
+In the gameplay of the game, the player will have to make decisions. Furthermore, in the game there will be two indicators represented in percentages: INSANITY and IMPATIENCE. Each choice the player makes, may increase (or not) one or even both percentages. The player loses if either of these two indicators reaches 100%. There will be alternative events to and the choices are expected to not have obvious outcomes.
+
+The program gives the player’s insanity a higher priority. So, in case the gamer reaches the limit of both stats, the game will consider losing because of the player’s stat first. 
 
 ### Objectives (what it is used for and what it is not used for):
 Considering the nature of the game, it is safe to say that it does not have a ludic purpose and is merely for enjoyment. The main objective of the game is to give a fun gaming experience to the user. 
