@@ -4,4 +4,4 @@ class Player: public Character{
     public: 
         void setInsanity(int);
         int getInsanity();
-};
+}; 
