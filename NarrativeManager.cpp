@@ -39,4 +39,4 @@ string NarrativeManager:: getEndingScene(string _character){
     } else {
         return getStoryLine(storyScriptSize - 1);
     }
-}
+} 
