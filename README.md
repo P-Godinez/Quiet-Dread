@@ -29,7 +29,7 @@ The program will also use an additional file (.txt) to read all the narrative ma
 
 **NARRATIVE MANAGER**: It will be the subclass in charge of reading the text file type .txt that will have the narrative content of the game, that is, the story. Its function is to read the text file and return a specific line of the text based on the turn. 
 
-**CHARACTER**: Superclass which will contain DEMON and PLAYEr since they have in common that they use stats (impatience and insanity, respectively) as well as methods to check if they are still valid. 
+**CHARACTER**: Superclass which will contain DEMON and PLAYER since they have in common that they use stats (impatience and insanity, respectively) as well as methods to check if they are still valid. **IMPORANT**: Note that the class Demon and Player do not have atributes, this is because insanity and impatience are stats. So, the getters and setters of demon and player interact with stat. This is only to reduce code lines. 
 
 **PLAYER**: It will be one of the characters in the game. It will have the attributes of INSANITY and others that will check its status. Functions: To be a control parameter of the game, because in case his score is above 100, the player will have a bad ending. 
 
