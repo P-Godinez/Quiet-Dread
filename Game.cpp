@@ -1,6 +1,5 @@
 # include "Game.h"
 # include <string>
-// Constructor. 
 Game:: Game(){
     isPlaying = false;
     endingCharacter = "";
