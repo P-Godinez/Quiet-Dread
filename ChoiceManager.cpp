@@ -1,5 +1,5 @@
 # include "ChoiceManager.h"
-// Constructor.
+
 ChoiceManager:: ChoiceManager():Manager(){
     insanityEffects = 0;
     impatienceEffects = 0;
